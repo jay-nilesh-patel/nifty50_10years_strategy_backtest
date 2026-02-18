@@ -1,6 +1,6 @@
 # Run:
 #   pip install streamlit pandas numpy plotly
-#   streamlit run app.py
+#   streamlit run main.py
 
 from __future__ import annotations
 
@@ -806,3 +806,4 @@ with tabs[4]:
         file_name=f"trades_{tf}_rr_synthfut_costs.csv",
         mime="text/csv",
     )
+
